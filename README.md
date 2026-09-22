@@ -47,6 +47,7 @@ application built with Kotlin.
 - Lifecycle / ViewModel
 - Gradle
 
+
 ## 📁 Project Structure
 
 ```text
@@ -69,3 +70,29 @@ zendo-task-manager/
 ├── settings.gradle.kts
 ├── .env.example             # Environment variable template
 └── README.md
+
+## 📸 Screenshots
+
+### Dashboard
+
+![Zendo Dashboard](docs/screenshots/dashboard.png)
+
+### Task Management
+
+![Zendo Tasks](docs/screenshots/My%20task.png)
+
+### Create Tasks
+
+![Create Tasks](docs/screenshots/Create%20tasks.png)
+
+### Calendar
+
+![Zendo Calendar](docs/screenshots/calendar.png)
+
+### Focus Timer
+
+![Zendo Focus Timer](docs/screenshots/focus-timer.png)
+
+### Notes
+
+![Zendo Notes](docs/screenshots/notes.png)
