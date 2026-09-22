@@ -1,0 +1,8 @@
+{
+  "name": "ZenDo",
+  "description": "A modern, mobile-optimized to-do list and note-taking application designed for clarity and productivity.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

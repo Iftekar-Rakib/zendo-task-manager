@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">ZenDo</string>
+
+    <!-- Auth -->
+    <string name="welcome_back">Welcome Back</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up_prompt">Don\'t have an account? Sign Up</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="incorrect_credentials">Incorrect email or password</string>
+    <string name="fill_all_fields">Please fill all fields</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_tasks">Tasks</string>
+    <string name="nav_notes">Notes</string>
+
+    <!-- Dashboard -->
+    <string name="your_progress">Your Progress</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="daily_goal">Daily Goal</string>
+    <string name="total_tasks">Total Tasks</string>
+    <string name="completed">Completed</string>
+    <string name="zen_insight">Zen Insight</string>
+
+    <!-- Tasks -->
+    <string name="create_task">Create Task</string>
+    <string name="add_new">Add New</string>
+    <string name="my_tasks">My Tasks</string>
+    <string name="search_tasks">Search tasks...</string>
+    <string name="auto_schedule">Auto Schedule</string>
+    <string name="task_name">Task Name</string>
+    <string name="task_description">Task Description...</string>
+    <string name="priority">Priority</string>
+    <string name="high">High</string>
+    <string name="medium">Medium</string>
+    <string name="low">Low</string>
+    <string name="select_date">Select Date</string>
+
+    <!-- Notes -->
+    <string name="my_notes">My Notes</string>
+    <string name="search_notes">Search notes...</string>
+    <string name="no_notes_yet">No notes yet</string>
+    <string name="tap_to_edit">Tap to edit</string>
+    <string name="your_note">Your Note</string>
+</resources>
