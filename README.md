@@ -1,20 +1,71 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Zendo – Productivity & Task Management App
 
-# Run and deploy your AI Studio app
+Zendo is a productivity and task management project designed to help users
+organize daily tasks, notes, events, categories, and focused work sessions
+through a clean and interactive interface.
 
-This contains everything you need to run your app locally.
+The repository contains a React/TypeScript web application and an Android
+application built with Kotlin.
 
-View your app in AI Studio: https://ai.studio/apps/89750198-5520-45c2-bdaa-d80cb65a7c39
+## ✨ Features
 
-## Run Locally
+- Task management
+- Task priorities, categories, tags, due dates, and subtasks
+- Dashboard for productivity overview
+- Calendar and event management
+- Notes management
+- Focus / Pomodoro timer
+- Category and folder organization
+- Authentication flow
+- AI-powered assistant for productivity tasks
+- AI-assisted creation of tasks, events, notes, and folders
+- Responsive and animated user interface
 
-**Prerequisites:**  Node.js
+## 🛠️ Tech Stack
 
+### Web Application
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- React
+- TypeScript
+- Vite
+- Express.js
+- Node.js
+- Tailwind CSS
+- Motion
+- Lucide React
+- Google Gemini API
+
+### Android Application
+
+- Kotlin
+- Android SDK
+- AndroidX
+- Material Components
+- RecyclerView
+- Room Database
+- View Binding
+- Lifecycle / ViewModel
+- Gradle
+
+## 📁 Project Structure
+
+```text
+zendo-task-manager/
+│
+├── app/                     # Android application
+│   └── src/main/
+│       ├── java/
+│       └── res/
+│
+├── src/                     # React / TypeScript application
+│   ├── components/
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── types.ts
+│
+├── server.ts                # Express + Vite server and AI API
+├── package.json             # Web dependencies and scripts
+├── build.gradle.kts         # Android/Gradle configuration
+├── settings.gradle.kts
+├── .env.example             # Environment variable template
+└── README.md
